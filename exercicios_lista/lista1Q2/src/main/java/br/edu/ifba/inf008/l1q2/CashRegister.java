@@ -31,14 +31,23 @@ class CashRegister {
     public void setRegisterId(String registerId) { this.registerId = registerId; }
 
     public void processPayment(double amount) {
-
+        if (getCurrentBalance(currentBalance) <= 0){
+            System.out.println("Sem saldo na conta.");
+        }
+        System.out.println("Saldo era de: " + getCurrentBalance(currentBalance));
+        this.currentBalance = (this.currentBalance - amount);
+        System.out.println("E agora é: " getCurrentBalance);
     }
 
     public void processRefund(double amount){
-
+        System.out.println("Saldo era de: " + getCurrentBalance(currentBalance));
+        this.currentBalance = (this.currentBalance + amount);
+        System.out.println("E agora é: " getCurrentBalance);
     }
 
     public void getDailyReport(){
 
     }
+
+    // fazer a sobrecarga dos métodos a seguir
 }
