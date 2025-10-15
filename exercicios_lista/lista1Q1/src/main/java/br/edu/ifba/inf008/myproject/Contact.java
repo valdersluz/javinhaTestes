@@ -1,18 +1,18 @@
-public class Contact {
+package br.edu.ifba.inf008.myproject;
+
+class Contact {
 	private String name;
 	private String phone;
 	private String email;
 
 	public Contact(String name, String phone){
-		this.name = name;
-		this.phone = phone;
+		setName(name);
+		setPhone(phone);
 	}
 
 	public Contact(String name, String phone, String email){
-		//this(name, phone);  // chama o construtor anterior e passa os parametros
-		this.name = name;
-		this.phone = phone;
-		this.email = email;
+		this(name, phone);  // chama o construtor anterior e passa os parametros
+		setEmail(email);
 	}
 
 	public String getName(){ return name; }
@@ -29,9 +29,8 @@ public class Contact {
 	}
 
 	public void updateContact(String name, String phone, String email){
-		this.name = name;
-		this.phone = phone;
-		this.email = email;
+		setPhone(phone);
+		setEmail(email);
 	}
 
 
