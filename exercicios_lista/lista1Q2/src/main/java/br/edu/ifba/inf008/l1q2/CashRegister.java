@@ -18,7 +18,8 @@ class CashRegister {
     }
 
     public CashRegister(double currentBalance, int transactionCount, String registerId){
-        this(currentBalance, transactionCount, registerId);
+        this(currentBalance, transactionCount);
+        setRegisterId(registerId);
     }
 
     public double getCurrentBalance() { return currentBalance; }
@@ -30,19 +31,21 @@ class CashRegister {
     public String getRegisterId() { return registerId; }
     public void setRegisterId(String registerId) { this.registerId = registerId; }
 
+    // métodos normais
+
     public void processPayment(double amount) {
-        if (getCurrentBalance(currentBalance) <= 0){
+        if (getCurrentBalance() <= 0){
             System.out.println("Sem saldo na conta.");
         }
-        System.out.println("Saldo era de: " + getCurrentBalance(currentBalance));
-        this.currentBalance = (this.currentBalance - amount);
-        System.out.println("E agora é: " getCurrentBalance);
+        System.out.println("Saldo era de: " + getCurrentBalance());
+        setCurrentBalance(getCurrentBalance() - amount);
+        System.out.println("E agora é: " + getCurrentBalance());
     }
 
     public void processRefund(double amount){
-        System.out.println("Saldo era de: " + getCurrentBalance(currentBalance));
-        this.currentBalance = (this.currentBalance + amount);
-        System.out.println("E agora é: " getCurrentBalance);
+        System.out.println("Saldo era de: " + getCurrentBalance());
+        setCurrentBalance(getCurrentBalance() + amount);
+        System.out.println("E agora é: " + getCurrentBalance());
     }
 
     public void getDailyReport(){
@@ -50,4 +53,13 @@ class CashRegister {
     }
 
     // fazer a sobrecarga dos métodos a seguir
+
+    public void processPayment(int amount) {
+       if (getCurrentBalance() <= 0){
+            System.out.println("Sem saldo na conta");
+       }
+       System.out.println("Saldo era de: " + getCurrentBalance());
+       setCurrentBalance(getCurrentBalance() - (double) amount);
+       System.out.println("E agora é: " + getCurrentBalance());
+    }
 }

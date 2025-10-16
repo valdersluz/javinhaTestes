@@ -84,6 +84,15 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.6.1</version>
         </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>exec-maven-plugin</artifactId>
+          <version>3.6.1</version>
+          <configuration>
+            <mainClass>br.edu.ifba.inf008.l1q2.Main</mainClass>
+          </configuration>
+        </plugin>
+
       </plugins>
     </pluginManagement>
   </build>
