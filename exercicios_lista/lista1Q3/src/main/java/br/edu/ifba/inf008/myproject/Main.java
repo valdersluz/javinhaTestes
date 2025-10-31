@@ -3,8 +3,11 @@ package br.edu.ifba.inf008.myproject;
 /**
  * Hello world!
  */
-public class App {
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        GeometryCalculator retangulo = new GeometryCalculator(5, 8, 2);
+
+        System.out.println("retangulo " + retangulo.getSide1());
     }
 }
