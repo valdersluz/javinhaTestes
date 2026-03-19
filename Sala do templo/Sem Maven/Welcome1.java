@@ -7,5 +7,12 @@ public class Welcome1
     {
         System.out.print("Bem-vindo ao");
         System.out.println("Primeiro programa em Java!");
+
+        //onde a JVM está procurando classes
+        // se sair . é o diretório atual
+        String classpath = System.getProperty("java.class.path");
+
+        System.out.println("Classpath: ");
+        System.out.println(classpath);
     }
 } 
