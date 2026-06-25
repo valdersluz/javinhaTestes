@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="138" xmlns:dc="http://purl.org/dc/elements/1.1/" styles="unlocked" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.9.1" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:pt-BR; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="abiword.date_last_changed">Tue Jun 23 16:25:17 2026
+</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.creator">VALDER SANTOS</m>
+<m key="dc.date">Tue Jun  2 11:19:09 2026
+</m>
+<m key="dc.format">application/x-abiword</m>
+</metadata>
+<rdf>
+</rdf>
+<history version="3" edit-time="114265" last-saved="1782242717" uid="fcca1fd2-5e8b-11f1-9d91-907a55c571fa">
+<version id="2" started="1780409949" uid="227e9682-5f85-11f1-9d91-907a55c571fa" auto="0" top-xid="56"/>
+<version id="3" started="1782242717" uid="442b8a92-6f39-11f1-87c5-b3326d63fe44" auto="0" top-xid="138"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; bgcolor:transparent; widows:2; font-style:normal; text-indent:0in; text-position:normal; margin-bottom:0pt; font-weight:normal; line-height:1.0; text-align:left; font-variant:normal; text-decoration:none; margin-right:0pt; font-size:12pt; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="8.267717" height="11.692913" units="in" page-scale="1.000000"/>
+<section xid="38" props="page-margin-footer:0.5000in; page-margin-header:0.5000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Normal" xid="39" props="text-align:center; dom-dir:ltr"><c props="font-weight:bold">Como criar um projeto maven no terminal (abiword)</c><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="37" props="text-align:center; dom-dir:ltr"><c props="font-weight:bold"></c><c></c></p>
+<p style="Normal" xid="1" props="text-align:left; dom-dir:ltr">1 - Instalar o maven no pc<c></c></p>
+<p style="Normal" xid="2" props="text-align:left; dom-dir:ltr">2 - Site do mavenproject e procurar o archetype (sugestão é procurar por maven<c></c></p>
+<p style="Normal" xid="3" props="text-align:left; dom-dir:ltr">in 5 minutes)<c></c></p>
+<p style="Normal" xid="4" props="text-align:left; dom-dir:ltr">Mas o archetype é o seguinte:<c></c></p>
+<p style="Normal" xid="41" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="5" props="text-align:left; dom-dir:ltr">mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -<c></c></p>
+<p style="Normal" xid="6" props="text-align:left; dom-dir:ltr">DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -<c></c></p>
+<p style="Normal" xid="7" props="text-align:left; dom-dir:ltr">DinteractiveMode=false<c></c></p>
+<p style="Normal" xid="40" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="60" props="text-align:left; dom-dir:ltr">Um exemplo:<c></c></p>
+<p style="Normal" xid="61" props="text-align:left; dom-dir:ltr">mvn archetype:generate -<c></c><c props="font-weight:bold">DgroupId</c>=br.edu.ifba.inf008.myproject -<c props="font-weight:bold">DartifactId</c>=myproject -DarchetypeArtifactId=maven-archetype-quickstart -</p>
+<p style="Normal" xid="62" props="text-align:left; dom-dir:ltr">DarchetypeVersion=1.5 -DinteractiveMode=false<c></c></p>
+<p style="Normal" xid="63" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="64" props="text-align:left; dom-dir:ltr"><c></c>DgroupId: É o nome do pacote</p>
+<p style="Normal" xid="65" props="text-align:left; dom-dir:ltr">DartifactId: É o nome da pasta do projeto (você coloca o que quiser p.ex:<c></c></p>
+<p style="Normal" xid="66" props="text-align:left; dom-dir:ltr">lista1Questao2)<c></c></p>
+<p style="Normal" xid="67" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="68" props="text-align:left; dom-dir:ltr"><c></c>3 - adicionar este plugin na tag de plugins que está dentro do arquivo pom.xml</p>
+<p style="Normal" xid="69" props="text-align:left; dom-dir:ltr">	&lt;plugin&gt;<c></c></p>
+<p style="Normal" xid="70" props="text-align:left; dom-dir:ltr">		&lt;groupId&gt;org.codehaus.mojo&lt;/groupId&gt;<c></c></p>
+<p style="Normal" xid="71" props="text-align:left; dom-dir:ltr">		&lt;artifactId&gt;exec-maven-plugin&lt;/artifactId&gt;<c></c></p>
+<p style="Normal" xid="72" props="text-align:left; dom-dir:ltr">		&lt;version&gt;1.4.0&lt;/version&gt;<c></c></p>
+<p style="Normal" xid="73" props="text-align:left; dom-dir:ltr">		&lt;configuration&gt;<c></c></p>
+<p style="Normal" xid="74" props="text-align:left; dom-dir:ltr">			&lt;mainClass&gt; insira o caminho do seu pacote aqui &lt;/mainClass&gt;<c></c></p>
+<p style="Normal" xid="75" props="text-align:left; dom-dir:ltr">		&lt;/configuration&gt;<c></c></p>
+<p style="Normal" xid="76" props="text-align:left; dom-dir:ltr">	&lt;/plugin&gt;<c></c></p>
+<p style="Normal" xid="77" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="78" props="text-align:left; dom-dir:ltr">No Maven, o código-fonte sempre fica dentro de: src/main/java/<c></c></p>
+<p style="Normal" xid="79" props="text-align:left; dom-dir:ltr">Então, entre nessa pasta e veja onde está o arquivo Main.java.<c></c></p>
+<p style="Normal" xid="80" props="text-align:left; dom-dir:ltr">Pode ser com o comando no terminal:<c></c></p>
+<p style="Normal" xid="81" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="82" props="text-align:left; dom-dir:ltr">	find . -name "Main.java" ou “App.java”<c></c></p>
+<p style="Normal" xid="83" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="84" props="text-align:left; dom-dir:ltr">Um exemplo de saída:<c></c></p>
+<p style="Normal" xid="85" props="font-family:Times New Roman; font-size:12pt; dom-dir:ltr; lang:pt-BR; text-align:left; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c></c><c></c></p>
+<p style="Normal" xid="86" props="text-align:left; dom-dir:ltr">	./br/edu/ifba/inf008/Main.java<c></c></p>
+<p style="Normal" xid="87" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="88" props="text-align:left; dom-dir:ltr"><c></c>Pegue o caminho acima e troque as barras por pontos e remova ./ e</p>
+<p style="Normal" xid="89" props="text-align:left; dom-dir:ltr">o .java assim:<c></c></p>
+<p style="Normal" xid="90" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="91" props="text-align:left; dom-dir:ltr">	br.edu.ifba.inf008.Main<c></c></p>
+<p style="Normal" xid="92" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="93" props="text-align:left; dom-dir:ltr">ou apenas navegar pelas pastas até ele e decore o caminho correto<c></c></p>
+<p style="Normal" xid="94" props="text-align:left; dom-dir:ltr"><c></c><c></c></p>
+<p style="Normal" xid="95" props="text-align:left; dom-dir:ltr">4 - Executar os seguintes comandos para compilar e executar:<c></c></p>
+<p style="Normal" xid="96" props="text-align:left; dom-dir:ltr">mvn compile (compilar o programa)<c></c></p>
+<p style="Normal" xid="97" props="text-align:left; dom-dir:ltr">mvn exec:java (executar o programa)<c></c></p>
+<p style="Normal" xid="98" props="text-align:left; dom-dir:ltr">mvn clean (remove os arquivos gerados anteriormente)<c></c></p>
+<p style="Normal" xid="99" props="text-align:left; dom-dir:ltr"><c></c></p>
+</section>
+</abiword>
