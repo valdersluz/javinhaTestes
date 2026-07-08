@@ -1,3 +1,5 @@
+package br.edu.ifba.inf008;
+
 public class SalariedEmployee extends Employee
 {
     private double weeklySalary;

@@ -1,3 +1,5 @@
+package br.edu.ifba.inf008;
+
 public abstract class Employee
 {
     private final String firstName;
